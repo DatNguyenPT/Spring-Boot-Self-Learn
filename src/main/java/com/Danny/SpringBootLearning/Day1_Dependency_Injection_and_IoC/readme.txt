@@ -18,6 +18,7 @@ dẫn đến khi 1 class bị lỗi, thay đổi thì sẽ ảnh hưởng đến
 bean nào được thực thi
 - Mỗi lần inject bean thì lại quá tốn thời gian nếu số lượng bean quá nhiều
 => Tạo 1 container lưu trữ các bean, khi cần sử dụng bean nào trong service thì gọi thông qua annotation @Qualifier
+=> Hoặc sử dụng annotation @Primary thì không cần khai báo Qualifier, bean nào có @Primary sẽ được ưu tiên inject
 
     Container
  (Các bean kế thừa Sort Interface)
