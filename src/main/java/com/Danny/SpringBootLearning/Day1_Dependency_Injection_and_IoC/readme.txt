@@ -32,3 +32,11 @@ bean nào được thực thi
          |
   Sort Interface
 => Đảm bảo logic và nghiệp vụ: Có sort và biết sort loại nào (Quick hoặc Bubble)
+
+---------------------------------------------------------------------------------------------------------------------
+                                                     @Bean vs @Component
+- Cả 2 đều là annotation dùng để đánh dấu bean trong 1 IoC của Spring, tuy nhiên trường hợp dùng là khác nhau
++) @Bean dùng cho function của 1 class
++) @Component dùng cho cả 1 class
+- @Bean sẽ linh hoạt hơn @Component vì @Bean là tùy chỉnh bean trong cấu hình, trong khi @Component là tự động đăng kí
+bean trong IoC của Spring (phát hiện tự động)
