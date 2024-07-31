@@ -1,0 +1,9 @@
+datnguyen:
+  name: "DatNguyen"
+  email: "abc@gmail.com"
+  map:
+    key1: 1
+    key2: 2
+  list:
+    - tiendat
+    - anhduong
